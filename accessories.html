@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type='text/javascript' src=''></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
+    <script type='text/javascript' src=''></script>
+    <link rel="stylesheet" href="Css/all.min.css">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Sraty To Header -->
+    <div class="header mt-0">
+
+        <div class="container fluid mt-4 ">
+            <div class="row ">
+                <div class="col-lg-6 col-md-12 d-flex ">
+                    <div class="col-md-3">
+                        <div class="logo-amane">
+                            <img src="img/Aman_Logo_1_ (1).png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-sm-12 mt-3">
+                        <input type="text" class="input-control form-control mt-1" placeholder="Search entirr Store here......">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ">
+
+                    <div class=" d-flex d-flex justify-content-between">
+                        <div class="d-flex sign-in col-md-2 m-1 mt-2">
+                            <i class="fa-solid fa-user mt-3"></i>
+                            <a href="" class="mt-3 lonk ">sign in</a>
+                            
+                        </div>
+                        <div class="col-md-3 mt-4  ">
+                            <a href="" class="lonk "> create An Account</a>
+                        </div>
+
+                        <!-- <select class="clect form-control col-md-4 mt-4 select">
+                        <option>العربيه</option>
+                        <option>English</option>
+                    </select> -->
+                        <select id="gender1" class="border-none mt-4">
+                            <option>عربي</option>
+                            <option>English</option>
+                        </select>
+                        <div class="col-lg-3 mt-4 ">
+                            <div class="ahmed">
+                                <i class="fa-solid fa-cart-shopping lonk"></i>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End Top Header -->
+    <!-- Start NavBar -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">
+                                    <i class="fa-solid fa-bars"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active " aria-current="page" href="#">Mobailes & Tablets</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Accessories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Televisions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#"> Appliances</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Computer & Gaming</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home & office</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Vehicles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Fashion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Sports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Kids Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Beauty & Health</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Commang</a>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- End NavBar -->
+
+    <div class="container">
+        <h2 class="mt-4">Accessories</h2>
+        <div class="text-center  btn-butt">
+            <button >Mobiles& tablets & accessories</button>
+            <button>computer accessories</button>
+            <button>tv accessories</button>
+            <button>Camera accessories</button>
+            <div class="mt-5 " style="width: 200px;display: flex;justify-content: space-between;">
+                <i class="fa-solid fa-border-none icone-row ;" onclick="filterSelection('fruits')"></i>
+                <i class="fa-solid fa-chart-simple icone-row " onclick="filterSelection('colors')"></i>
+            </div>
+        </div>
+
+    </div>
+    <div class="filterDiv fruits">
+        <section>
+            <div class="container-fluid">
+                <div class="row mt-5">
+                    <div class="col-sm-4 text-center" >
+                        <h5>Compare Products
+                        </h5>
+                        <p class="mt-2">You have no items to compare.
+                        </p>
+                        <div class="mt-5">
+                            <h5>My Wish List
+                            </h5>
+                            <p>You have no items in your wish list.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                          <span class="product-image-wrapper" >
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>                  </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <span class="product-image-wrapper" >
+                                    <img src="img/b4.jpg" class="card-img-top  product-image-photo" alt="...">
+                                  </span>                      </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b2.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text">title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart harttt ml-5 zx" ></i>
+                          
+                            <span class="product-image-wrapper" >
+                                <span class="product-image-wrapper" >
+                                    <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                                  </span>                      </span>
+                           
+                            <div class="card-body">
+                             
+                              <p class="card-text"> title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-4"></div>
+                    
+                    
+                    <div class="col-lg-2 col-md-6 col-sm-12" >
+                      <div class="discount">1-852off</div>
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <span class="product-image-wrapper" >
+                                    <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                                  </span>                      </span>
+                            <div class="discount">0% Admin- 0% Deposit</div>
+                            <div class="card-body">
+                             
+                              <p class="card-text">bulk of the.</p>
+                                <div class="border"></div>
+                                <div class="d-flex">
+                                <h6 class="mt-3 p-2">Egp888.95</h6>
+                             <del>  <h6 class="mt-3 p-2 text-secondary ">Egp888.95</h6></del> 
+        
+                               
+        
+                                </div>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart harttt ml-5 zx" ></i>
+                          
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                           
+                            <div class="card-body">
+                             
+                              <p class="card-text"> title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-4"></div>
+                    
+                    
+                    <div class="col-lg-2 col-md-6 col-sm-12" >
+                      <div class="discount">1-852off</div>
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="discount">0% Admin- 0% Deposit</div>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> of the card's content.</p>
+                                <div class="border"></div>
+                                <div class="d-flex">
+                                <h6 class="mt-3 p-2">Egp888.95</h6>
+                             <del>  <h6 class="mt-3 p-2  text-secondary ">Egp888.95</h6></del> 
+        
+                               
+        
+                                </div>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="discount">1-852off</div>
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b2.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text">title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12" >
+                        <div class="discount">1-852off</div>
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart harttt ml-5 zx" ></i>
+                          
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                           
+                            <div class="card-body">
+                             
+                              <p class="card-text">  and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-4"></div>
+                    
+                    
+                    <div class="col-lg-2 col-md-6 col-sm-12" >
+                   
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="discount">0% Admin- 0% Deposit</div>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> of the card's content.</p>
+                                <div class="border"></div>
+                                <div class="d-flex">
+                                <h6 class="mt-3 p-2">Egp888.95</h6>
+                             <del>  <h6 class="mt-3 p-2  text-secondary ">Egp888.95</h6></del> 
+        
+                               
+        
+                                </div>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                            <span class="product-image-wrapper" >
+                                <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                            <div class="discount">0% Admin- 0% Deposit</div>
+                            <div class="card-body">
+                             
+                              <p class="card-text"> title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                      
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+                          <span class="product-image-wrapper" >
+                            <img src="img/b1.jpg" class="card-img-top  product-image-photo" alt="...">
+                          </span>
+                            <div class="card-body">
+                             
+                              <p class="card-text">title and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                                <button class="mt-4 add-card">Add To Card</button>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-12">
+                        <div class="discount">1-852off</div>
+                        <div class="card b-none" >
+                            <i class="fa-solid fa-heart harttt ml-5 zx" ></i>
+                          
+                            <span class="product-image-wrapper" >
+                                <img src="img/b2.jpg" class="card-img-top  product-image-photo" alt="...">
+                              </span>
+                           
+                            <div class="card-body">
+                             
+                              <p class="card-text">  and make up the bulk of the card's content.</p>
+                                <div class="border"></div>
+                                <h6 class="mt-3 ">Egp888.95</h6>
+                                <div class="border mt-3"></div>
+                               
+                                <button class="mt-4 add-card">Add To  Card</button>
+                              
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="filterDiv colors">
+        <div class="container-fluid">
+         <div class="row">
+          <div class="col-md-4">
+            <div class="text-center mt-5" >
+              <h5>Compare Products
+              </h5>
+              <p class="mt-2">You have no items to compare.
+              </p>
+              <div class="mt-5">
+                  <h5>My Wish List
+                  </h5>
+                  <p>You have no items in your wish list.
+                  </p>
+              </div>
+          </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+      <div class="d-flex">
+        <div class="card b-none col-lg-6" >
+             
+          <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+          <span class="product-image-wrapper" >
+            <span class="product-image-wrapper" >
+                <img src="img/b1.jpg" class="card-img-top photo  product-image-photo" alt="..." >
+              </span>                 
+             </span>
+        
+         
+        </div>
+        <div style="margin-left: 40px; height: 300px;">
+        <a class="phone-iphone">	  i11 TWS Wireless Bluetooth 5.0 in-Ear Earphones</a>
+        <div class="star mt-3">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <a href="" class="Reviews"> 2  Reviews</a>
+          <a href="" class="Reviews">  Add Your Review</a>
+          <h2 class="mt-2"> EGP149.00</h2>
+          <button class="Addto mt-4">Add To Card</button>
+          <div class="mt-5"></div>
+          <div class="d-block mt-5">
+             <a href="" class="mt-4 ">Learn Moro</a>
+          </div>
+         
+       
+        </div>
+        
+        </div>
+      </div>
+              <br>
+             
+        </div>
+        
+        
+         </div>
+         <div class="bor col-lg-8 " style="float: right;"></div>
+
+         
+        </div>
+        <div class="container-fluid">
+         <div class="row w-100">
+          <div class="col-md-4">
+        
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+      <div class="d-flex">
+        <div class="card b-none col-lg-6" >
+             
+          <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+          <span class="product-image-wrapper" >
+            <span class="product-image-wrapper" >
+                <img src="img/b1.jpg" class="card-img-top photo  product-image-photo" alt="..." >
+                <div class="interest">0% interest -0% Deposit</div>
+              </span>                 
+             </span>
+        
+         
+        </div>
+        <div style="margin-left: 40px; height: 300px;">
+        <a class="phone-iphone">	  i11 TWS Wireless Bluetooth 5.0 in-Ear Earphones</a>
+        <div class="star mt-3">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <a href="" class="Reviews"> 2  Reviews</a>
+          <a href="" class="Reviews">  Add Your Review</a>
+          <h2 class="mt-2"> EGP149.00</h2>
+          <button class="Addto mt-4">Add To Card</button>
+          <div class="mt-5"></div>
+          <div class="d-block mt-4">
+            <a href="" class="mt-4">Learn Moro</a>
+          </div>
+      
+       
+        </div>
+        
+        </div>
+      </div>
+              <br>
+             
+        </div>
+        
+        
+         </div>
+         <div class="bor col-lg-8 " style="float: right;"></div>
+
+         
+        </div>
+        <div class="container-fluid">
+         <div class="row w-100">
+          <div class="col-md-4">
+        
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 mt-5">
+      <div class="d-flex">
+        <div class="card b-none col-lg-6" >
+             
+          <i class="fa-solid fa-heart ml-5 harttt zx" ></i>
+          <span class="product-image-wrapper" >
+            <span class="product-image-wrapper" >
+                <img src="img/b1.jpg" class="card-img-top photo  product-image-photo" alt="..." >
+                <div class="interest">0% interest -0% Deposit</div>
+              </span>                 
+             </span>
+        
+         
+        </div>
+        <div style="margin-left: 40px; height: 300px;">
+        <a class="phone-iphone">	  i11 TWS Wireless Bluetooth 5.0 in-Ear Earphones</a>
+        <div class="star mt-3">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <a href="#id" class="Reviews"> 3  Reviews</a>
+          <a href="" class="Reviews">  Add Your Review</a>
+          <h2 class="mt-2"> EGP149.00</h2>
+          <button class="Addto mt-4">Add To Card</button>
+          <div class="mt-5"></div>
+          <div class="d-block mt-4">
+                 <a href="" class="mt-4 ">Learn Moro</a>
+         
+          </div>
+          
+       
+        </div>
+        
+        </div>
+      </div>
+              <br>
+             
+        </div>
+        
+        
+         </div>
+         <div class="bor col-lg-8 " style="float: right;"></div>
+
+         
+        </div>
+  
+     
+
+         
+        </div>
+       
+        </div>
+        
+    </div>
+<!-- Start Cart -->
+
+<!-- end Cart -->
+
+    <!-- Start Footer  -->
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+          </div>
+         
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>Top Categories
+
+                </h6>
+             <p>Mobiles & Tablets</p>
+             <p>Televisions</p>
+             <p>Computers & Gaming</p>
+             <p>Personal Care</p>
+             <p>Furniture</p>
+             <p>Watches</p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    Browse
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Help Center</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Bundles</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Brands</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Affiliate Program FAQ</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Affiliate Conditions</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Amen Gaybak</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    My Account
+
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Account Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Order History</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Address Book</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">My Wish List</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Important Links
+                </h6>
+                <p>Sell On Aman</p>
+                <p>
+                    Contact Us
+                </p>
+                <p>About Us</p>
+                <p>Terms & Conditions</p>
+                <p>Return & Refund</p>
+                <p>Privacy & Cookie Policy</p>
+                <p>Blog</p>
+                <p>Credit limit request</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+      </footer>
+      <!-- Footer -->
+    <!-- end Footer  -->
+
+    
+<script src="Js/main.js"></script>
+    <script src="Js/all.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script type='text/javascript'>$('.carousel .carousel-item').each(function () {
+var minPerSlide = 4;
+var next = $(this).next();
+if (!next.length) {
+next = $(this).siblings(':first');
+}
+next.children(':first-child').clone().appendTo($(this));
+
+for (var i = 0; i < minPerSlide; i++) { next=next.next(); if (!next.length) { next=$(this).siblings(':first'); } next.children(':first-child').clone().appendTo($(this)); } });
+</script>
+</body>
+
+</html>
